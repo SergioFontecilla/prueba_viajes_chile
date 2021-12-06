@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: auto !important;
+}
+
+body{
+    background-color: black;
+    font-family: Helvetica;
+    color: white;
+}
+
+.barra-divisora {
+    color: #2E86C1;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar a img {
+    width: 2.5em;
+}
+
+.navbar-brand {
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Quienes somos */
+.ico-center {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.ico-bg-azul {
+    background-color: #2E86C1;
+}
+
+
+/* Card */
+.border-1 {
+    color: white;
+}
+
+.card-color-background {
+    background-color: #2E86C1;
+}
+
+.card-title {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Contacto */
+#Contacto p {
+    color: black;
+}
+
+.contacto-color-background {
+    background-color: white;
+    padding: 100px;
+}
+
+/* Footer */
+#Footer {
+    background-color: #2E86C1;
+}
+
+#Footer h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Footer a {
+    color: white;
+    text-decoration: none;
+}
